@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<connections:connections xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:connections="http://www.ibm.com/websphere/wdo/connections">
+  <connection id="MySql_Conn_Uni">
+    <development xsi:type="connections:rsc-live-connection" id="MySql_Conn_Uni_dev" name="MySql_Conn_Uni"/>
+    <runtime xsi:type="connections:driver-manager-connection" auto-deploy="true" class-location="C:\Users\LENOVO\Downloads\mysql-connector-java-8.0.28\mysql-connector-java-8.0.28\mysql-connector-java-8.0.28.jar" id="MySql_Conn_Uni_runtime" class-name="com.mysql.cj.jdbc.Driver" url="jdbc:mysql://localhost:3306/BDJPA_UNI" userid="root"/>
+  </connection>
+</connections:connections>
